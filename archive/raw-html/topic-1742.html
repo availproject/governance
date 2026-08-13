@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>AIP 8: Change Ideal Staking Ratio to 50% and Update to Foundation Delegation Commission Policy - Avail Improvement Proposal (AIP) - Avail Forum</title>
+    <meta name="description" content="Author: Toufeeq Pasha 
+Description: This AIP proposes reducing the ideal staking ratio from 75% to 50% and updating the Foundation Delegation Program’s validator commission policy by increasing the acceptable commission …">
+    <meta name="generator" content="Discourse 2026.8.0-latest.1 - https://github.com/discourse/discourse version 3bcc19a5d2df81fcdfda6fa461ede9e9cac92c48">
+<link rel="icon" type="image/png" href="https://europe1.discourse-cdn.com/flex013/uploads/availproject/optimized/1X/3cc77370b2dee682d5a53c140c239a1848ff0380_2_32x32.svg">
+<link rel="apple-touch-icon" type="image/png" href="https://europe1.discourse-cdn.com/flex013/uploads/availproject/optimized/1X/3cc77370b2dee682d5a53c140c239a1848ff0380_2_180x180.svg">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#f6fafe">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#f6fafe">
+
+<meta name="color-scheme" content="light dark">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, viewport-fit=cover">
+<link rel="canonical" href="https://forum.availproject.org/t/aip-8-change-ideal-staking-ratio-to-50-and-update-to-foundation-delegation-commission-policy/1742" />
+
+<meta name="discourse-track-view-session-id" content="QAgG4j5vEC9v7ND3n4CfGUUWJKjZCNRs"><meta name="discourse-beacon-pageview-enabled" content="true"><meta name="discourse-engagement-tracking-enabled" content="true">
+<link rel="search" type="application/opensearchdescription+xml" href="https://forum.availproject.org/opensearch.xml" title="Avail Forum Search">
+
+    
+    <link href="https://dub1.discourse-cdn.com/flex013/stylesheets/color_definitions_wcag-light_2_1_b48f92c78c7ed04b5fd228d8a1107ef30bf0e67a.css?__ws=forum.availproject.org" media="all" rel="stylesheet" class="light-scheme" data-scheme-id="2"/>
+
+<link href="https://dub1.discourse-cdn.com/flex013/stylesheets/common_be107b2c8038529809658ffd5b527f3b424b9f85.css?__ws=forum.availproject.org" media="all" rel="stylesheet" data-target="common"  />
+
+
+
+  <link href="https://dub1.discourse-cdn.com/flex013/stylesheets/chat_be107b2c8038529809658ffd5b527f3b424b9f85.css?__ws=forum.availproject.org" media="all" rel="stylesheet" data-target="chat"  />
+  <link href="https://dub1.discourse-cdn.com/flex013/stylesheets/checklist_be107b2c8038529809658ffd5b527f3b424b9f85.css?__ws=forum.availproject.org" media="all" rel="stylesheet" data-target="checklist"  />
+  <link href="https://dub1.discourse-cdn.com/flex013/stylesheets/discourse-adplugin_be107b2c8038529809658ffd5b527f3b424b9f85.css?__ws=forum.availproject.org" media="all" rel="stylesheet" data-target="discourse-adplugin"  />
+  <link href="https://dub1.discourse-cdn.com/flex013/stylesheets/discourse-ai_be107b2c8038529809658ffd5b527f3b424b9f85.css?__ws=forum.availproject.org" media="all" rel="stylesheet" data-target="discourse-ai"  />
+  <link href="https://dub1.discourse-cdn.com/flex013/stylesheets/discourse-cakeday_be107b2c8038529809658ffd5b527f3b424b9f85.css?__ws=forum.availproject.org" media="all" rel="stylesheet" data-target="discourse-cakeday"  />
+  <link href="https://dub1.discourse-cdn.com/flex013/stylesheets/discourse-chat-integration_be107b2c8038529809658ffd5b527f3b424b9f85.css?__ws=forum.availproject.org" media="all" rel="stylesheet" data-target="discourse-chat-integration"  />
+  <link href="https://dub1.discourse-cdn.com/flex013/stylesheets/discourse-details_be107b2c8038529809658ffd5b527f3b424b9f85.css?__ws=forum.availproject.org" media="all" rel="stylesheet" data-target="discourse-details"  />
+  <link href="https://dub1.discourse-cdn.com/flex013/stylesheets/discourse-github_be107b2c8038529809658ffd5b527f3b424b9f85.css?__ws=forum.availproject.org" media="all" rel="stylesheet" data-target="discourse-github"  />
+  <link href="https://dub1.discourse-cdn.com/flex013/stylesheets/discourse-lazy-videos_be107b2c8038529809658ffd5b527f3b424b9f85.css?__ws=forum.availproject.org" media="all" rel="stylesheet" data-target="discourse-lazy-videos"  />
+  <link href="https://dub1.discourse-cdn.com/flex013/stylesheets/discourse-local-dates_be107b2c8038529809658ffd5b527f3b424b9f85.css?__ws=forum.availproject.org" media="all" rel="stylesheet" data-target="discourse-local-dates"  />
+  <link href="https://dub1.discourse-cdn.com/flex013/stylesheets/discourse-narrative-bot_be107b2c8038529809658ffd5b527f3b424b9f85.css?__ws=forum.availproject.org" media="all" rel="stylesheet" data-target="discourse-narrative-bot"  />
+  <link href="https://dub1.discourse-cdn.com/flex013/stylesheets/discourse-presence_be107b2c8038529809658ffd5b527f3b424b9f85.css?__ws=forum.availproject.org" media="all" rel="stylesheet" data-target="discourse-presence"  />
+  <link href="https://dub1.discourse-cdn.com/flex013/stylesheets/discourse-reactions_be107b2c8038529809658ffd5b527f3b424b9f85.css?__ws=forum.availproject.org" media="all" rel="stylesheet" data-target="discourse-reactions"  />
+  <link href="https://dub1.discourse-cdn.com/flex013/stylesheets/discourse-solved_be107b2c8038529809658ffd5b527f3b424b9f85.css?__ws=forum.availproject.org" media="all" rel="stylesheet" data-target="discourse-solved"  />
+  <link href="https://dub1.discourse-cdn.com/flex013/stylesheets/discourse-yearly-review_be107b2c8038529809658ffd5b527f3b424b9f85.css?__ws=forum.availproject.org" media="all" rel="stylesheet" data-target="discourse-yearly-review"  />
+  <link href="https://dub1.discourse-cdn.com/flex013/stylesheets/footnote_be107b2c8038529809658ffd5b527f3b424b9f85.css?__ws=forum.availproject.org" media="all" rel="stylesheet" data-target="footnote"  />
+  <link href="https://dub1.discourse-cdn.com/flex013/stylesheets/hosted-site_be107b2c8038529809658ffd5b527f3b424b9f85.css?__ws=forum.availproject.org" media="all" rel="stylesheet" data-target="hosted-site"  />
+  <link href="https://dub1.discourse-cdn.com/flex013/stylesheets/poll_be107b2c8038529809658ffd5b527f3b424b9f85.css?__ws=forum.availproject.org" media="all" rel="stylesheet" data-target="poll"  />
+  <link href="https://dub1.discourse-cdn.com/flex013/stylesheets/spoiler-alert_be107b2c8038529809658ffd5b527f3b424b9f85.css?__ws=forum.availproject.org" media="all" rel="stylesheet" data-target="spoiler-alert"  />
+  <link href="https://dub1.discourse-cdn.com/flex013/stylesheets/chat_mobile_be107b2c8038529809658ffd5b527f3b424b9f85.css?__ws=forum.availproject.org" media="(width < 40rem)" rel="stylesheet" data-target="chat_mobile"  />
+  <link href="https://dub1.discourse-cdn.com/flex013/stylesheets/discourse-ai_mobile_be107b2c8038529809658ffd5b527f3b424b9f85.css?__ws=forum.availproject.org" media="(width < 40rem)" rel="stylesheet" data-target="discourse-ai_mobile"  />
+  <link href="https://dub1.discourse-cdn.com/flex013/stylesheets/discourse-reactions_mobile_be107b2c8038529809658ffd5b527f3b424b9f85.css?__ws=forum.availproject.org" media="(width < 40rem)" rel="stylesheet" data-target="discourse-reactions_mobile"  />
+  <link href="https://dub1.discourse-cdn.com/flex013/stylesheets/chat_desktop_be107b2c8038529809658ffd5b527f3b424b9f85.css?__ws=forum.availproject.org" media="(width >= 40rem)" rel="stylesheet" data-target="chat_desktop"  />
+  <link href="https://dub1.discourse-cdn.com/flex013/stylesheets/discourse-ai_desktop_be107b2c8038529809658ffd5b527f3b424b9f85.css?__ws=forum.availproject.org" media="(width >= 40rem)" rel="stylesheet" data-target="discourse-ai_desktop"  />
+  <link href="https://dub1.discourse-cdn.com/flex013/stylesheets/discourse-reactions_desktop_be107b2c8038529809658ffd5b527f3b424b9f85.css?__ws=forum.availproject.org" media="(width >= 40rem)" rel="stylesheet" data-target="discourse-reactions_desktop"  />
+  <link href="https://dub1.discourse-cdn.com/flex013/stylesheets/poll_desktop_be107b2c8038529809658ffd5b527f3b424b9f85.css?__ws=forum.availproject.org" media="(width >= 40rem)" rel="stylesheet" data-target="poll_desktop"  />
+
+  <link href="https://dub1.discourse-cdn.com/flex013/stylesheets/common_theme_9_3cd36eefaa1d7dd6d667e5d1aaa783c062e4315d.css?__ws=forum.availproject.org" media="all" rel="stylesheet" data-target="common_theme" data-theme-id="9" data-theme-name="discourse-gifs"/>
+  
+  <link href="https://dub1.discourse-cdn.com/flex013/stylesheets/desktop_theme_9_89f94399177922d07d892e253ed8a39c5eb763a5.css?__ws=forum.availproject.org" media="(width >= 40rem)" rel="stylesheet" data-target="desktop_theme" data-theme-id="9" data-theme-name="discourse-gifs"/>
+
+    
+    
+        <link rel="alternate nofollow" type="application/rss+xml" title="RSS feed of &#39;AIP 8: Change Ideal Staking Ratio to 50% and Update to Foundation Delegation Commission Policy&#39;" href="https://forum.availproject.org/t/aip-8-change-ideal-staking-ratio-to-50-and-update-to-foundation-delegation-commission-policy/1742.rss" />
+    <meta property="og:site_name" content="Avail Forum" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="og:image" content="https://europe1.discourse-cdn.com/flex013/uploads/availproject/original/1X/3cc77370b2dee682d5a53c140c239a1848ff0380.svg" />
+<meta property="og:url" content="https://forum.availproject.org/t/aip-8-change-ideal-staking-ratio-to-50-and-update-to-foundation-delegation-commission-policy/1742" />
+<meta name="twitter:url" content="https://forum.availproject.org/t/aip-8-change-ideal-staking-ratio-to-50-and-update-to-foundation-delegation-commission-policy/1742" />
+<meta property="og:title" content="AIP 8: Change Ideal Staking Ratio to 50% and Update to Foundation Delegation Commission Policy" />
+<meta name="twitter:title" content="AIP 8: Change Ideal Staking Ratio to 50% and Update to Foundation Delegation Commission Policy" />
+<meta property="og:description" content="Author: Toufeeq Pasha  Description: This AIP proposes reducing the ideal staking ratio from 75% to 50% and updating the Foundation Delegation Program’s validator commission policy by increasing the acceptable commission threshold from 15% to 20%. This change supports validator operator sustainability and ensures a well-incentivised validator set as the network continues to grow.  Technical Summary This proposal introduces two coordinated updates:    Reduce the ideal_stake parameter from 75% to 5..." />
+<meta name="twitter:description" content="Author: Toufeeq Pasha  Description: This AIP proposes reducing the ideal staking ratio from 75% to 50% and updating the Foundation Delegation Program’s validator commission policy by increasing the acceptable commission threshold from 15% to 20%. This change supports validator operator sustainability and ensures a well-incentivised validator set as the network continues to grow.  Technical Summary This proposal introduces two coordinated updates:    Reduce the ideal_stake parameter from 75% to 5..." />
+<meta property="og:article:section" content="Governance V1" />
+<meta property="og:article:section:color" content="0088CC" />
+<meta property="og:article:section" content="Avail Improvement Proposal (AIP)" />
+<meta property="og:article:section:color" content="0088CC" />
+<meta name="twitter:label1" value="Reading time" />
+<meta name="twitter:data1" value="1 min 🕑" />
+<meta name="twitter:label2" value="Likes" />
+<meta name="twitter:data2" value="3 ❤" />
+<meta property="article:published_time" content="2025-12-15T07:35:09+00:00" />
+<meta property="og:ignore_canonical" content="true" />
+
+
+    
+  </head>
+  <body class="crawler ">
+    
+    <header>
+  <a href="/">Avail Forum</a>
+</header>
+
+    <div id="main-outlet" class="wrap" role="main">
+        <div id="topic-title">
+    <h1>
+      <a href="/t/aip-8-change-ideal-staking-ratio-to-50-and-update-to-foundation-delegation-commission-policy/1742">AIP 8: Change Ideal Staking Ratio to 50% and Update to Foundation Delegation Commission Policy</a>
+    </h1>
+
+      <div class="topic-category" itemscope itemtype="http://schema.org/BreadcrumbList">
+          <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+            <a href="/c/governance/32" class="badge-wrapper bullet" itemprop="item">
+              <span class='badge-category-bg' style='background-color: #0088CC'></span>
+              <span class='badge-category clear-badge'>
+                <span class='category-name' itemprop='name'>Governance V1</span>
+              </span>
+            </a>
+            <meta itemprop="position" content="1" />
+          </span>
+          <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+            <a href="/c/governance/avail-improvement-proposal/33" class="badge-wrapper bullet" itemprop="item">
+              <span class='badge-category-bg' style='background-color: #0088CC'></span>
+              <span class='badge-category clear-badge'>
+                <span class='category-name' itemprop='name'>Avail Improvement Proposal (AIP)</span>
+              </span>
+            </a>
+            <meta itemprop="position" content="2" />
+          </span>
+      </div>
+
+  </div>
+
+  
+
+    <div itemscope="itemscope" itemtype="http://schema.org/DiscussionForumPosting">
+      <meta itemprop='headline' content='AIP 8: Change Ideal Staking Ratio to 50% and Update to Foundation Delegation Commission Policy'>
+      <link itemprop='url' href='https://forum.availproject.org/t/aip-8-change-ideal-staking-ratio-to-50-and-update-to-foundation-delegation-commission-policy/1742'>
+      <meta itemprop='datePublished' content='2025-12-15T07:35:09Z'>
+      <meta itemprop='keywords' content=''>
+          <meta itemprop='articleSection' content='Avail Improvement Proposal (AIP)'>
+        <div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+          <meta itemprop='name' content='Avail'>
+            <div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+              <meta itemprop='url' content='https://europe1.discourse-cdn.com/flex013/uploads/availproject/original/1X/8d86751f597cd69bf73d876f80f9d6b3aab31a4d.svg'>
+            </div>
+        </div>
+
+
+
+          <div id='post_1'  class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">
+                <a rel='nofollow' href='https://forum.availproject.org/u/Toufeeq_Pasha'><span itemprop="name">Toufeeq_Pasha</span></a>
+                  <meta itemprop='url' content='https://forum.availproject.org/u/Toufeeq_Pasha'>
+                
+              </span>
+
+                <link itemprop="mainEntityOfPage" href="https://forum.availproject.org/t/aip-8-change-ideal-staking-ratio-to-50-and-update-to-foundation-delegation-commission-policy/1742">
+
+
+              <span class="crawler-post-infos">
+                  <time  datetime='2025-12-15T07:35:09Z' class='post-time'>
+                    December 15, 2025,  7:35am
+                  </time>
+                  <meta itemprop='dateModified' content='2025-12-23T06:38:18Z'>
+              <span itemprop="position">1</span>
+              </span>
+            </div>
+            <div class='post' itemprop="text">
+              <p><strong>Author</strong>: Toufeeq Pasha</p>
+<p><strong>Description</strong>: This AIP proposes reducing the ideal staking ratio from 75% to 50% and updating the Foundation Delegation Program’s validator commission policy by increasing the acceptable commission threshold from 15% to 20%. This change supports validator operator sustainability and ensures a well-incentivised validator set as the network continues to grow.</p>
+<h3><a name="p-2897-technical-summary-1" class="anchor" href="#p-2897-technical-summary-1" aria-label="Heading link"></a><strong>Technical Summary</strong></h3>
+<p>This proposal introduces two coordinated updates:</p>
+<ol>
+<li>
+<p>Reduce the ideal_stake parameter from 75% to 50%. This parameter affects inflation and reward dynamics by defining the staking participation level at which staking rewards are optimised.</p>
+</li>
+<li>
+<p>Increase the Foundation Delegation Program’s acceptable validator commission from 15% to 20%. This is not a protocol or runtime parameter change; validators have always been free to set commission up to 100%. The change updates the Foundation’s delegation policy; validators charging up to 20% commission will remain eligible for Foundation nominations.</p>
+</li>
+</ol>
+<p>Both updates have been evaluated on Turing and will be applied through a runtime upgrade (for the ideal_stake change) and a policy update (for the delegation threshold).</p>
+<h3><a name="p-2897-motivation-2" class="anchor" href="#p-2897-motivation-2" aria-label="Heading link"></a><strong>Motivation</strong></h3>
+<ol>
+<li><strong>Supporting Validator Operator Sustainability</strong></li>
+</ol>
+<p>Validator operators perform the critical work of block production, proof serving, and infrastructure management. And their sustainability is essential to network security and reliability.</p>
+<p>Increasing the Foundation Delegation Program’s acceptable commission threshold from 15% to 20% provides operators with more economic flexibility, especially for those who rely heavily on delegation to maintain competitive performance.</p>
+<p>This is a targeted adjustment to address the present operational realities of running a validator and is not indicative of continued increases in the future.</p>
+<ol>
+<li><strong>Smoother and More Sustainable Reward Dynamics</strong></li>
+</ol>
+<p>With the current ideal staking ratio set at 75%, reward emissions tighten sharply when staking participation is below that threshold. Moving the ideal_stake to 50% broadens the optimal reward zone and better supports long-term stability of validator and nominator incentives.</p>
+<p>This update improves the robustness of the staking economy without disrupting existing network behaviour.</p>
+<h3><a name="p-2897-technical-specification-3" class="anchor" href="#p-2897-technical-specification-3" aria-label="Heading link"></a><strong>Technical Specification</strong></h3>
+<p>The <strong>ideal_stake</strong> parameter directly influences Avail’s inflation dynamics and staking incentives:</p>
+<ol>
+<li>
+<p><strong>Staking Rate (x)</strong>:</p>
+<p>(StakedSupply) / (TotalSupply)</p>
+<p>The staking rate determines the inflation rate (I_NPoS) and the yearly interest rate (i(x)).</p>
+</li>
+<li>
+<p><strong>Inflation Dynamics</strong>:</p>
+<ul>
+<li>
+<p><strong>Below χ_ideal</strong>: Inflation increases linearly with x, incentivising more staking.</p>
+</li>
+<li>
+<p><strong>At χ_ideal</strong>: Inflation achieves its maximum value:</p>
+<p>INPoS=χideal∗iidealI_NPoS = χ_ideal * i_idealINPoS=χideal∗iideal</p>
+</li>
+<li>
+<p><strong>Above χ_ideal</strong>: Inflation decreases exponentially to discourage over-staking.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Proposed Update</strong>:</p>
+<ul>
+<li>
+<p>Current χ_ideal: 0.75 (75%)</p>
+</li>
+<li>
+<p>Proposed χ_ideal: 0.50 (50%)</p>
+</li>
+<li>
+<p>Current acceptable validator commission by Foundation Delegation Program: 15%</p>
+</li>
+<li>
+<p>Proposed acceptable validator commission by Foundation Delegation Program: 20%</p>
+</li>
+</ul>
+<p><em>Note: Validator commission remains configurable up to 100% at the protocol level. This AIP only updates the delegation eligibility threshold for Foundation nominations.</em></p>
+</li>
+<li>
+<p><strong>Testing</strong>:</p>
+<p>This change has been tested on Turing, validating its effectiveness and compatibility with network parameters.</p>
+</li>
+</ol>
+<h3><a name="p-2897-rationale-and-reasoning-4" class="anchor" href="#p-2897-rationale-and-reasoning-4" aria-label="Heading link"></a><strong>Rationale and Reasoning</strong></h3>
+<ol>
+<li><strong>Ensuring Validator Sustainability Without Protocol Changes</strong></li>
+</ol>
+<p>The validator commission ceiling is intentionally unbounded by the protocol to allow market-based differentiation. This AIP simply signals that the Foundation Delegation Program will continue supporting validators who set commission up to 20%, aligning incentives without impacting runtime logic.</p>
+<ol>
+<li><strong>Strengthening Reward Stability</strong></li>
+</ol>
+<p>Lowering the ideal staking ratio:</p>
+<ul>
+<li>
+<p>reduces reward volatility</p>
+</li>
+<li>
+<p>better aligns incentives across varying staking levels</p>
+</li>
+<li>
+<p>supports a more stable validator set.</p>
+</li>
+</ul>
+<p>These changes target current network needs and are not intended to establish a pattern of recurring adjustments.</p>
+<h3><a name="p-2897-backwards-compatibility-5" class="anchor" href="#p-2897-backwards-compatibility-5" aria-label="Heading link"></a><strong>Backwards Compatibility</strong></h3>
+<p>This proposal does not introduce any backwards incompatibilities. The change to the <strong>ideal_stake</strong> parameter is applied via a runtime upgrade and does not affect the consensus mechanism or validator operations. The network will continue to function as intended, with no disruptions for participants.</p>
+<h3><a name="p-2897-security-considerations-or-risks-6" class="anchor" href="#p-2897-security-considerations-or-risks-6" aria-label="Heading link"></a><strong>Security Considerations or Risks</strong></h3>
+<p>The runtime upgrade process ensures the change is applied uniformly across the network, introducing no security vulnerabilities. Testing on Turing has validated the safety and effectiveness of this adjustment. The increase in staking participation will further enhance network security.</p>
+<h3><a name="p-2897-copyright-waiver-7" class="anchor" href="#p-2897-copyright-waiver-7" aria-label="Heading link"></a><strong>Copyright Waiver</strong></h3>
+<p>Copyright and related rights waived via CC0.</p>
+            </div>
+
+              <div itemprop="interactionStatistic" itemscope="itemscope" itemtype="http://schema.org/InteractionCounter">
+                  <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+                  <meta itemprop="userInteractionCount" content="3" />
+                <span class='post-likes'>3 Likes</span>
+              </div>
+
+                <div class='crawler-linkback-list'>
+                    <div>
+                      <a href="https://forum.availproject.org/t/transparency-report-19-change-ideal-stake-to-50/1743">Transparency Report 19: Change ideal_stake to 50%</a>
+                    </div>
+                </div>
+
+            
+
+
+          </div>
+
+    </div>
+
+
+    <div id="related-topics" class="more-topics__list " role="complementary" aria-labelledby="related-topics-title">
+  <h3 id="related-topics-title" class="more-topics__list-title">
+    Related topics
+  </h3>
+  <div class="topic-list-container" itemscope itemtype='http://schema.org/ItemList'>
+    <meta itemprop='itemListOrder' content='http://schema.org/ItemListOrderDescending'>
+    <table class='topic-list'>
+      <thead>
+        <tr>
+          <th>Topic</th>
+          <th></th>
+          <th class="replies">Replies</th>
+          <th class="views">Views</th>
+          <th>Activity</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="topic-list-item" id="topic-list-item-1632">
+            <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+              <meta itemprop='position' content='1'>
+              <span class="link-top-line">
+                <a itemprop='url' href='https://forum.availproject.org/t/aip-5-increase-ideal-staking-ratio-to-75/1632' class='title raw-link raw-topic-link'>AIP 5: Increase Ideal Staking Ratio to 75%</a>
+              </span>
+              <div class="link-bottom-line">
+                  <a href='/c/governance/avail-improvement-proposal/33' class='badge-wrapper bullet'>
+                    <span class='badge-category-bg' style='background-color: #0088CC'></span>
+                    <span class='badge-category clear-badge'>
+                      <span class='category-name'>Avail Improvement Proposal (AIP)</span>
+                    </span>
+                  </a>
+                  <div class="discourse-tags">
+                  </div>
+              </div>
+            </td>
+            <td class="replies">
+              <span class='posts' title='posts'>7</span>
+            </td>
+            <td class="views">
+              <span class='views' title='views'>251</span>
+            </td>
+            <td>
+              January 22, 2025
+            </td>
+          </tr>
+          <tr class="topic-list-item" id="topic-list-item-1743">
+            <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+              <meta itemprop='position' content='2'>
+              <span class="link-top-line">
+                <a itemprop='url' href='https://forum.availproject.org/t/transparency-report-19-change-ideal-stake-to-50/1743' class='title raw-link raw-topic-link'>Transparency Report 19: Change ideal_stake to 50%</a>
+              </span>
+              <div class="link-bottom-line">
+                  <a href='/c/governance/avail-transparency-report/34' class='badge-wrapper bullet'>
+                    <span class='badge-category-bg' style='background-color: #0088CC'></span>
+                    <span class='badge-category clear-badge'>
+                      <span class='category-name'>Avail Transparency Report</span>
+                    </span>
+                  </a>
+                  <div class="discourse-tags">
+                  </div>
+              </div>
+            </td>
+            <td class="replies">
+              <span class='posts' title='posts'>3</span>
+            </td>
+            <td class="views">
+              <span class='views' title='views'>152</span>
+            </td>
+            <td>
+              December 28, 2025
+            </td>
+          </tr>
+          <tr class="topic-list-item" id="topic-list-item-1643">
+            <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+              <meta itemprop='position' content='3'>
+              <span class="link-top-line">
+                <a itemprop='url' href='https://forum.availproject.org/t/update-stake-and-ideal-target/1643' class='title raw-link raw-topic-link'>Update: Stake and Ideal Target</a>
+              </span>
+              <div class="link-bottom-line">
+                  <a href='/c/announcements/18' class='badge-wrapper bullet'>
+                    <span class='badge-category-bg' style='background-color: #FE8B6C'></span>
+                    <span class='badge-category clear-badge'>
+                      <span class='category-name'>Announcements</span>
+                    </span>
+                  </a>
+                  <div class="discourse-tags">
+                  </div>
+              </div>
+            </td>
+            <td class="replies">
+              <span class='posts' title='posts'>1</span>
+            </td>
+            <td class="views">
+              <span class='views' title='views'>95</span>
+            </td>
+            <td>
+              January 25, 2025
+            </td>
+          </tr>
+          <tr class="topic-list-item" id="topic-list-item-1640">
+            <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+              <meta itemprop='position' content='4'>
+              <span class="link-top-line">
+                <a itemprop='url' href='https://forum.availproject.org/t/transparency-report-12-increased-ideal-stake-to-75/1640' class='title raw-link raw-topic-link'>Transparency Report 12: Increased ideal_stake to 75%</a>
+              </span>
+              <div class="link-bottom-line">
+                  <a href='/c/governance/avail-transparency-report/34' class='badge-wrapper bullet'>
+                    <span class='badge-category-bg' style='background-color: #0088CC'></span>
+                    <span class='badge-category clear-badge'>
+                      <span class='category-name'>Avail Transparency Report</span>
+                    </span>
+                  </a>
+                  <div class="discourse-tags">
+                  </div>
+              </div>
+            </td>
+            <td class="replies">
+              <span class='posts' title='posts'>0</span>
+            </td>
+            <td class="views">
+              <span class='views' title='views'>84</span>
+            </td>
+            <td>
+              January 20, 2025
+            </td>
+          </tr>
+          <tr class="topic-list-item" id="topic-list-item-1775">
+            <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+              <meta itemprop='position' content='5'>
+              <span class="link-top-line">
+                <a itemprop='url' href='https://forum.availproject.org/t/aip-9-reduce-mainnet-active-validator-set-to-80/1775' class='title raw-link raw-topic-link'>AIP 9: Reduce Mainnet Active Validator Set to 80</a>
+              </span>
+              <div class="link-bottom-line">
+                  <a href='/c/governance/avail-improvement-proposal/33' class='badge-wrapper bullet'>
+                    <span class='badge-category-bg' style='background-color: #0088CC'></span>
+                    <span class='badge-category clear-badge'>
+                      <span class='category-name'>Avail Improvement Proposal (AIP)</span>
+                    </span>
+                  </a>
+                  <div class="discourse-tags">
+                  </div>
+              </div>
+            </td>
+            <td class="replies">
+              <span class='posts' title='posts'>0</span>
+            </td>
+            <td class="views">
+              <span class='views' title='views'>91</span>
+            </td>
+            <td>
+              May 25, 2026
+            </td>
+          </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
+
+
+
+    </div>
+    <footer class="container wrap">
+  <nav class='crawler-nav'>
+    <ul>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='/' itemprop="url">Home </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='/categories' itemprop="url">Categories </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='/guidelines' itemprop="url">Guidelines </a>
+        </span>
+      </li>
+        <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+          <span itemprop='name'>
+            <a href='/tos' itemprop="url">Terms of Service </a>
+          </span>
+        </li>
+        <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+          <span itemprop='name'>
+            <a href='/privacy' itemprop="url">Privacy Policy </a>
+          </span>
+        </li>
+    </ul>
+  </nav>
+  <p class='powered-by-link'>Powered by <a href="https://www.discourse.org">Discourse</a>, best viewed with JavaScript enabled</p>
+</footer>
+
+    
+    <script id="twitter-wjs" type="text/javascript" async="" defer="" src="//platform.twitter.com/widgets.js" nonce="q3JRFcKnpaL3vaH6Up4lJRznf"></script>
+
+  </body>
+  
+</html>
