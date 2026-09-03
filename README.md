@@ -9,7 +9,8 @@ This is not a full replacement for forum discussion. Ongoing community conversat
 ## Contents
 
 - AIPs: 10 files
-- Transparency reports: 21 files
+- Transparency reports: 22 files
+- Incident reports: 1 file
 - Committee material: 4 files
 - General governance reference: 1 files
 - Source archive: `archive/`
@@ -55,7 +56,14 @@ This is not a full replacement for forum discussion. Ongoing community conversat
 | Transparency Report 18: Update SP1-SDK & Verification Key | [transparency-report-018-update-sp1-sdk-verification-key.md](transparency-reports/transparency-report-018-update-sp1-sdk-verification-key.md) |
 | Transparency Report 19: Change ideal_stake to 50% | [transparency-report-019-change-ideal-stake-to-50.md](transparency-reports/transparency-report-019-change-ideal-stake-to-50.md) |
 | Transparency Report 20: Avail Bridge Wrapped Transaction Safety Fix | [transparency-report-020-avail-bridge-wrapped-transaction-safety-fix.md](transparency-reports/transparency-report-020-avail-bridge-wrapped-transaction-safety-fix.md) |
+| Transparency Report 21: Technical Committee Actions During Mainnet Recovery | [transparency-report-021-technical-committee-actions-during-mainnet-recovery.md](transparency-reports/transparency-report-021-technical-committee-actions-during-mainnet-recovery.md) |
 | About the Avail Transparency Report category | [about-the-avail-transparency-report-category.md](transparency-reports/about-the-avail-transparency-report-category.md) |
+
+## Incident Reports
+
+| Report | File |
+| --- | --- |
+| Incident Report 1: Mainnet Liveness and Finality Incident | [incident-report-001-mainnet-liveness-and-finality.md](incidents/incident-report-001-mainnet-liveness-and-finality.md) |
 
 ## Committees
 
