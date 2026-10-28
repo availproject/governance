@@ -57,6 +57,7 @@ This is not a full replacement for forum discussion. Ongoing community conversat
 | Transparency Report 19: Change ideal_stake to 50% | [transparency-report-019-change-ideal-stake-to-50.md](transparency-reports/transparency-report-019-change-ideal-stake-to-50.md) |
 | Transparency Report 20: Avail Bridge Wrapped Transaction Safety Fix | [transparency-report-020-avail-bridge-wrapped-transaction-safety-fix.md](transparency-reports/transparency-report-020-avail-bridge-wrapped-transaction-safety-fix.md) |
 | Transparency Report 21: Technical Committee Actions During Mainnet Recovery | [transparency-report-021-technical-committee-actions-during-mainnet-recovery.md](transparency-reports/transparency-report-021-technical-committee-actions-during-mainnet-recovery.md) |
+| Avail Transparency Report 22: Technical Committee Membership Update | [transparency-report-022-technical-committee-membership-update.md](transparency-reports/transparency-report-022-technical-committee-membership-update.md) |
 | About the Avail Transparency Report category | [about-the-avail-transparency-report-category.md](transparency-reports/about-the-avail-transparency-report-category.md) |
 
 ## Incident Reports
